@@ -1,0 +1,25 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'add_friend_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+AddFriendModel _$AddFriendModelFromJson(Map<String, dynamic> json) =>
+    AddFriendModel(
+      data: json['data'] == null
+          ? null
+          : AddFriendData.fromJson(json['data'] as Map<String, dynamic>),
+      error_code: json['error_code'] as int?,
+      message: json['message'] as String?,
+      status: json['status'] as bool?,
+    );
+
+Map<String, dynamic> _$AddFriendModelToJson(AddFriendModel instance) =>
+    <String, dynamic>{
+      'status': instance.status,
+      'error_code': instance.error_code,
+      'message': instance.message,
+      'data': instance.data,
+    };

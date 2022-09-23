@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1687" data-name="Rectangle 1687" width="64" height="64" rx="24" transform="translate(156 582)" fill="#fc2f74"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13949" data-name="Group 13949" transform="translate(-62 -581)">
+    <g id="Group_13943" data-name="Group 13943" transform="translate(-94 -1)">
+      <rect id="Rectangle_1685" data-name="Rectangle 1685" width="64" height="64" rx="24" transform="translate(156 582)" fill="#b858e5"/>
+      <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+        <rect id="Rectangle_1686" data-name="Rectangle 1686" width="87" height="38" transform="translate(144.5 614)" fill="#fff" opacity="0.15"/>
+      </g>
+    </g>
+    <g id="Icon_ionic-md-images" data-name="Icon ionic-md-images" transform="translate(79.867 598.315)">
+      <path id="Path_6165" data-name="Path 6165" d="M24.823,8.542,20.448,8.33l-.255-2.853a1.1,1.1,0,0,0-1.215-.971L3.285,5.795A1.082,1.082,0,0,0,2.256,6.946L3.38,19.452a1.1,1.1,0,0,0,1.215.971l.8-.064-.127,2.429a1.2,1.2,0,0,0,1.188,1.246l17.508.833a1.217,1.217,0,0,0,1.315-1.124l.737-13.965A1.2,1.2,0,0,0,24.823,8.542ZM6,8.823l-.377,7.149L4.7,17.283,3.842,7.842V7.789a.575.575,0,0,1,.509-.5L18.194,6.155a.512.512,0,0,1,.557.419c0,.011.016.011.016.021s.016.011.016.021l.143,1.634L7.31,7.693A1.223,1.223,0,0,0,6,8.823ZM23.715,21.388l-4.5-5.277L17.234,17.93l-3.67-4.285L7.056,20.576l.552-10.56V10a.606.606,0,0,1,.631-.477l15.444.743a.563.563,0,0,1,.552.541c0,.011.016.016.016.027Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_6166" data-name="Path 6166" d="M26.447,16.894a1.7,1.7,0,1,0-1.7-1.7A1.7,1.7,0,0,0,26.447,16.894Z" transform="translate(-5.527 -2.211)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1687" data-name="Rectangle 1687" width="64" height="64" rx="24" transform="translate(156 582)" fill="#fc2f74"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13950" data-name="Group 13950" transform="translate(-249 -684)">
+    <g id="Group_13944" data-name="Group 13944" transform="translate(93 102)">
+      <rect id="Rectangle_1685" data-name="Rectangle 1685" width="64" height="64" rx="24" transform="translate(156 582)" fill="#de5f32"/>
+      <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+        <rect id="Rectangle_1686" data-name="Rectangle 1686" width="64" height="38" transform="translate(156 614)" fill="#fff" opacity="0.15"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-headphones-alt" data-name="Icon awesome-headphones-alt" d="M7.8,14.727h-.78A3.122,3.122,0,0,0,3.9,17.853V20.96a3.122,3.122,0,0,0,3.119,3.125H7.8a1.561,1.561,0,0,0,1.56-1.563V16.29A1.561,1.561,0,0,0,7.8,14.727Zm10.138,0h-.78A1.561,1.561,0,0,0,15.6,16.29v6.233a1.561,1.561,0,0,0,1.56,1.563h.78a3.122,3.122,0,0,0,3.119-3.125V17.853a3.122,3.122,0,0,0-3.119-3.125ZM12.477,2.25A12.715,12.715,0,0,0,0,14.727v5.459a.78.78,0,0,0,.78.78h.78a.78.78,0,0,0,.78-.78V14.727a10.138,10.138,0,0,1,20.276,0v5.459a.78.78,0,0,0,.78.78h.78a.78.78,0,0,0,.78-.78V14.727A12.715,12.715,0,0,0,12.477,2.25Z" transform="translate(269 702.75)" fill="#fff"/>
+  </g>
+</svg>

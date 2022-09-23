@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "640481659859",
+    "project_id": "chato-b8f31",
+    "storage_bucket": "chato-b8f31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640481659859:android:8b4f742b993cf47d96bd26",
+        "android_client_info": {
+          "package_name": "com.chato.mychato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640481659859-q7pkgmd18pmerigq255g5r2vno8ol8fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08bw3t_yMd8zW24yw73vibl3LJA0-0Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640481659859-q7pkgmd18pmerigq255g5r2vno8ol8fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640481659859:android:2716305e33899de796bd26",
+        "android_client_info": {
+          "package_name": "com.chatoApp.chato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640481659859-q7pkgmd18pmerigq255g5r2vno8ol8fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08bw3t_yMd8zW24yw73vibl3LJA0-0Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640481659859-q7pkgmd18pmerigq255g5r2vno8ol8fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

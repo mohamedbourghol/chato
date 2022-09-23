@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1687" data-name="Rectangle 1687" width="64" height="64" rx="24" transform="translate(156 582)" fill="#fc2f74"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13952" data-name="Group 13952" transform="translate(-62 -684)">
+    <g id="Group_13943" data-name="Group 13943" transform="translate(-94 102)">
+      <rect id="Rectangle_1685" data-name="Rectangle 1685" width="64" height="64" rx="24" transform="translate(156 582)" fill="#0090cf"/>
+      <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+        <rect id="Rectangle_1686" data-name="Rectangle 1686" width="87" height="38" transform="translate(144.5 614)" fill="#fff" opacity="0.15"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-user" data-name="Icon awesome-user" d="M9.534,10.9A5.448,5.448,0,1,0,4.086,5.448,5.448,5.448,0,0,0,9.534,10.9Zm3.814,1.362h-.711a7.409,7.409,0,0,1-6.206,0H5.72A5.722,5.722,0,0,0,0,17.979v1.771a2.044,2.044,0,0,0,2.043,2.043H17.025a2.044,2.044,0,0,0,2.043-2.043V17.979A5.722,5.722,0,0,0,13.348,12.258Z" transform="translate(84.466 705.104)" fill="#fff"/>
+  </g>
+</svg>

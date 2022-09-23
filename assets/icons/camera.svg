@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1687" data-name="Rectangle 1687" width="64" height="64" rx="24" transform="translate(156 582)" fill="#fc2f74"/>
+    </clipPath>
+  </defs>
+  <g id="Group_14557" data-name="Group 14557" transform="translate(-156 -575)">
+    <g id="Group_13948" data-name="Group 13948" transform="translate(0 -6)">
+      <g id="Group_13942" data-name="Group 13942" transform="translate(0 -1)">
+        <rect id="Rectangle_1685" data-name="Rectangle 1685" width="64" height="64" rx="24" transform="translate(156 582)" fill="#fc2f74"/>
+        <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+          <rect id="Rectangle_1686" data-name="Rectangle 1686" width="87" height="38" transform="translate(144.5 614)" fill="#fff" opacity="0.15"/>
+        </g>
+      </g>
+      <g id="Icon_material-camera-alt" data-name="Icon material-camera-alt" transform="translate(174 600)">
+        <path id="Path_6167" data-name="Path 6167" d="M20.441,16.821A3.621,3.621,0,1,1,16.821,13.2,3.621,3.621,0,0,1,20.441,16.821Z" transform="translate(-2.506 -2.506)" fill="#fff"/>
+        <path id="Path_6168" data-name="Path 6168" d="M10.92,3,8.85,5.263H5.263A2.27,2.27,0,0,0,3,7.526V21.1a2.27,2.27,0,0,0,2.263,2.263h18.1A2.27,2.27,0,0,0,25.629,21.1V7.526a2.27,2.27,0,0,0-2.263-2.263H19.779L17.709,3Zm3.394,16.972a5.657,5.657,0,1,1,5.657-5.657A5.659,5.659,0,0,1,14.315,19.972Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

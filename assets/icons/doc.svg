@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1687" data-name="Rectangle 1687" width="64" height="64" rx="24" transform="translate(156 582)" fill="#fc2f74"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13947" data-name="Group 13947" transform="translate(-249 -581)">
+    <g id="Group_13945" data-name="Group 13945">
+      <g id="Group_13944" data-name="Group 13944" transform="translate(93 -1)">
+        <rect id="Rectangle_1685" data-name="Rectangle 1685" width="64" height="64" rx="24" transform="translate(156 582)" fill="#745de9"/>
+        <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+          <rect id="Rectangle_1686" data-name="Rectangle 1686" width="87" height="38" transform="translate(144.5 614)" fill="#fff" opacity="0.15"/>
+        </g>
+      </g>
+      <path id="Icon_awesome-file-alt" data-name="Icon awesome-file-alt" d="M9.222,5.6V0H.988A.986.986,0,0,0,0,.988v19.1a.986.986,0,0,0,.988.988H14.821a.986.986,0,0,0,.988-.988V6.587h-5.6A.991.991,0,0,1,9.222,5.6Zm2.635,9.716a.5.5,0,0,1-.494.494H4.446a.5.5,0,0,1-.494-.494v-.329a.5.5,0,0,1,.494-.494h6.916a.5.5,0,0,1,.494.494Zm0-2.635a.5.5,0,0,1-.494.494H4.446a.5.5,0,0,1-.494-.494v-.329a.5.5,0,0,1,.494-.494h6.916a.5.5,0,0,1,.494.494Zm0-2.964v.329a.5.5,0,0,1-.494.494H4.446a.5.5,0,0,1-.494-.494V9.716a.5.5,0,0,1,.494-.494h6.916A.5.5,0,0,1,11.857,9.716Zm3.952-4.7V5.27h-5.27V0h.251a.987.987,0,0,1,.7.288l4.03,4.035A.985.985,0,0,1,15.809,5.018Z" transform="translate(273.096 602.461)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

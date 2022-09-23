@@ -1,0 +1,2138 @@
+{
+	"info": {
+		"_postman_id": "787dd617-782e-46e3-9054-dd6e3713ff0f",
+		"name": "Rooms",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13569256"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "anas",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/auth/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Regster",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "anasmurad",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "acvgsf@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "123456789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/auth/register",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "8|6KZ3CBuhLoaNZRr9APfkaeUWXYh3dJib0FgtGmyF",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/auth/logout",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Regster Account Arabic",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|Bj0crQG77yWNBzzmZcd9RxrGn5GA7vpknQpn5oOJ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "ؤءمنية",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "axd@gmail.comsssءءcsء",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "123456789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/auth/register_account_arabic",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"register_account_arabic"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "forgetPassword",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "acvgsf@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/auth/forgetPassword",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"forgetPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "change_password",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "acvgsf@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "code",
+									"value": "7229",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/auth/change_password",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"change_password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "rest_Password",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "16|rz4yWunvKcVGCH553kT0XTG6A7pIWow7V5a2sn4B",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "password_old",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "password_new",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "confirm_password_new",
+									"value": "123456789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/auth/rest_password",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"rest_password"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Update Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|Bj0crQG77yWNBzzmZcd9RxrGn5GA7vpknQpn5oOJ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "vsdbdzb",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "male",
+									"description": "male, female, other",
+									"type": "text"
+								},
+								{
+									"key": "country_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "img",
+									"type": "file",
+									"src": "/E:/pictior/anete-lusina-zwsHjakE_iI-unsplash.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/auth/update/user/info",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"update",
+								"user",
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|Bj0crQG77yWNBzzmZcd9RxrGn5GA7vpknQpn5oOJ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/auth/user",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "blockUser",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "blocked_id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/block-user",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"block-user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllBlockUser",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/get-all-block-user?user_id=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get-all-block-user"
+							],
+							"query": [
+								{
+									"key": "user_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UnblockUser",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "blocked_id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/unblock-user",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"unblock-user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddStatus",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "status",
+									"type": "file",
+									"src": "/E:/pictior/anete-lusina-zwsHjakE_iI-unsplash.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/add-status",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"add-status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteStatus",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "status",
+									"type": "file",
+									"src": "/E:/pictior/anete-lusina-zwsHjakE_iI-unsplash.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/delete-status",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"delete-status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SeenStatus",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "29|qo8LvnZ366zVMPepUuJRDflS9xeynj7ZsGkw8r7P",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "status_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/seen-status",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"seen-status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetStatusFriend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "29|qo8LvnZ366zVMPepUuJRDflS9xeynj7ZsGkw8r7P",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/room/get-status-friend",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-status-friend"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vip Accounts",
+			"item": [
+				{
+					"name": "Get Vip Accounts",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "16|rz4yWunvKcVGCH553kT0XTG6A7pIWow7V5a2sn4B",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/vipaccounts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"vipaccounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "vipaccountsTransactions",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "16|rz4yWunvKcVGCH553kT0XTG6A7pIWow7V5a2sn4B",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "vip_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/vipaccounts_transactions",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"vipaccounts_transactions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Countries",
+			"item": [
+				{
+					"name": "Get Countries",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "16|rz4yWunvKcVGCH553kT0XTG6A7pIWow7V5a2sn4B",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/countries",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"countries"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "friends",
+			"item": [
+				{
+					"name": "search_friends",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "16|rz4yWunvKcVGCH553kT0XTG6A7pIWow7V5a2sn4B",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/search-friend?search=a",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"search-friend"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllFriend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "16|rz4yWunvKcVGCH553kT0XTG6A7pIWow7V5a2sn4B",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/get-all-friend",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get-all-friend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "friendshipRequests",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "19|VZnM0KakaBEGao6A09BKfqAH1Z9lCXTmWMu7dx4l",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/friendship-requests",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"friendship-requests"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "changeRequestFriend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "22|VpmEfE488yHvVblZXk5OL84bYT7AaRayoFqZ2meN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "approve",
+									"description": "approve, reject",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/change-requests-friend",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"change-requests-friend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addFriend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "16|rz4yWunvKcVGCH553kT0XTG6A7pIWow7V5a2sn4B",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "friend_id",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/add-friend",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"add-friend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "countFriend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "19|VZnM0KakaBEGao6A09BKfqAH1Z9lCXTmWMu7dx4l",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/count-friend",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"count-friend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detailsFriend",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "19|VZnM0KakaBEGao6A09BKfqAH1Z9lCXTmWMu7dx4l",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/details-friend?id=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"details-friend"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Room",
+			"item": [
+				{
+					"name": "Create-Room",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "test1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/create-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"create-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetRoom",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "37|chrOt7teCiocwud9MZjPtsynH7UXn6PH1t8UlSqx",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/room/get-room?room_id=2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-room"
+							],
+							"query": [
+								{
+									"key": "room_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-Room",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "37|chrOt7teCiocwud9MZjPtsynH7UXn6PH1t8UlSqx",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "room_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "img",
+									"type": "file",
+									"src": "/E:/pictior/blak.jpg"
+								},
+								{
+									"key": "background_id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/update-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"update-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete-Room",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "26|7W2FPcY9n1svGeOyxosfKyX9PdyCPD9PkFhz20qU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/delete-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"delete-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddUserRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "26|7W2FPcY9n1svGeOyxosfKyX9PdyCPD9PkFhz20qU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "room_id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/add-user-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"add-user-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Background-Room",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/get-background-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-background-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddOrDeleteFavoriteRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "room_id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/add-delete-favorite-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"add-delete-favorite-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetFavoriteRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/get-favorite-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-favorite-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AِllTypeRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/all-type-room?room_id=2&type=user",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"all-type-room"
+							],
+							"query": [
+								{
+									"key": "room_id",
+									"value": "2"
+								},
+								{
+									"key": "type",
+									"value": "user",
+									"description": "owner,admin, user"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AِllVpiUserRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/all-user-vip-room?room_id=2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"all-user-vip-room"
+							],
+							"query": [
+								{
+									"key": "room_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetUserAllRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/get-user-all-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-user-all-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/get-all-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-all-room"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "test1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllTrend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/room/get-all-trend",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-all-trend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddRoomTrend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "paymant",
+									"value": "1501",
+									"type": "text"
+								},
+								{
+									"key": "room_id",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/add-room-trend",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"add-room-trend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteUserRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "28|v0DewgeF1jt5S2Z5bzEjCrcObbhxWFpCCpUUoVmh",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "remove_user_id",
+									"value": "2",
+									"description": "المستخدم المحذوف",
+									"type": "text"
+								},
+								{
+									"key": "room_id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/delete-user-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"delete-user-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ChangePermeationUserRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "27|L1wFdMcPZiaJfbhxSP90k0okmDKOc8U1jAk6BFmX",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_id",
+									"value": "2",
+									"description": "المستخدم الي بدنا نعدل صلاحيتوا داخل الروم",
+									"type": "text"
+								},
+								{
+									"key": "room_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "owner",
+									"description": "owner, admin, user",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/change-permeation-user-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"change-permeation-user-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SendMessage",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "room_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "user2_id",
+									"value": "2",
+									"description": "اذا كان في الروم ما بنبعت هاي",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "message",
+									"value": "ADGSHDshdsjhej",
+									"type": "text"
+								},
+								{
+									"key": "all_file",
+									"description": "optinal",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/send-message",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"send-message"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetConversationPrivet",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/get-conversation-privet",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-conversation-privet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetConversationOldMessage",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "53|54ZuGtS18YzBCgKrJyS9s0mlqqEhOKOGl78xc8IO",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/room/get-conversation-old-message?room_id=1&max_id=20",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"get-conversation-old-message"
+							],
+							"query": [
+								{
+									"key": "conversation_id",
+									"value": "6",
+									"description": "optional",
+									"disabled": true
+								},
+								{
+									"key": "room_id",
+									"value": "1",
+									"description": "optional"
+								},
+								{
+									"key": "max_id",
+									"value": "20",
+									"description": "optional in page one"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GitGiftRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "32|nAqm9caSKwyxhTxZTDCpddIGKTZYIjRrkg12XeH9",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/room/git-gift-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"git-gift-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SendGiftRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "36|Mp3c2iaY8AIP2REXYym5azXtctWKzTOm5bEmWJjk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "userR_id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "room_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "gift_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/send-gift-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"send-gift-room"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BlockUserRoom",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "79|VhATGkPESbxnB0p1bKB5QxntnOTv3YhPYK00tCby",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "userBlocked_id",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "room_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/room/block-user-room",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"room",
+								"block-user-room"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Marchent",
+			"item": [
+				{
+					"name": "SendCoins",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "30|G06CDZyMp8sDTRq6crfN6izW0FVPXSNrPFGfj0ab",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_received_id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "number_of_coins_or_diamond",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "diamond",
+									"description": "coins,diamond",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/send_coins",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"send_coins"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request Copy",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://www.room.tecknick.net/api",
+			"type": "string"
+		},
+		{
+			"key": "u",
+			"value": "http://127.0.0.1:8000/api",
+			"type": "string"
+		}
+	]
+}
